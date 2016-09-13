@@ -34,9 +34,6 @@
 		6D5ABB351D7EA08900E93B80 /* glsupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glsupport.h; sourceTree = "<group>"; };
 		6D5ABB361D7EA08900E93B80 /* matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix4.h; sourceTree = "<group>"; };
 		6D5ABB371D7EA72800E93B80 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
-		6D5ABB381D7EA90C00E93B80 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
-		6D5ABB391D7EA90C00E93B80 /* fragment_textured.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment_textured.glsl; sourceTree = "<group>"; };
-		6D5ABB3A1D7EA90C00E93B80 /* vertex_textured.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex_textured.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +74,6 @@
 				6D5ABB361D7EA08900E93B80 /* matrix4.h */,
 				6D5ABB371D7EA72800E93B80 /* stb_image.h */,
 				6D5ABB331D7EA08000E93B80 /* glsupport.cpp */,
-				6D5ABB381D7EA90C00E93B80 /* emoji.png */,
-				6D5ABB391D7EA90C00E93B80 /* fragment_textured.glsl */,
-				6D5ABB3A1D7EA90C00E93B80 /* vertex_textured.glsl */,
 				6D5ABB281D7E261400E93B80 /* main.cpp */,
 			);
 			path = TemplateProject;
@@ -267,6 +261,7 @@
 				6D5ABB2E1D7E261400E93B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

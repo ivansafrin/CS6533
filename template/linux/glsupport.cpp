@@ -5,6 +5,8 @@
 #include <stdexcept>
 
 #include "glsupport.h"
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
 
 using namespace std;
 
@@ -122,4 +124,30 @@ void readAndCompileShader(GLuint programHandle, const char * vertexShaderFileNam
 
   linkShader(programHandle, vs, fs);
   checkGlErrors(__FILE__, __LINE__);
+}
+
+GLuint loadGLTexture(const char *filePath) {
+    int w,h,comp;
+    unsigned char* image = stbi_load(filePath, &w, &h, &comp, STBI_rgb_alpha);
+    
+    if(image == nullptr) {
+        std::cout << "Unable to load image. Make sure the image is in the same path as the executable.\n";
+        assert(false);
+    }
+    
+    GLuint retTexture;
+    glGenTextures(1, &retTexture);
+    glBindTexture(GL_TEXTURE_2D, retTexture);
+    
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    
+    if(comp == 3)
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, w, h, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
+    else if(comp == 4)
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
+    
+    glBindTexture(GL_TEXTURE_2D, 0);
+    stbi_image_free(image);
+    return retTexture;
 }

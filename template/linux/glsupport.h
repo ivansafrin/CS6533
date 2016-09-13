@@ -11,6 +11,8 @@
     #include <GL/glut.h>
 #endif
 
+GLuint loadGLTexture(const char *filePath);
+
 // Check if there has been an error inside OpenGL and if yes, print the error and
 // through a runtime_error exception.
 void checkGlErrors(const char* filename, int lineno);
