@@ -1,6 +1,5 @@
-
-#include <glut.h>
 #include "glsupport.h"
+#include <GL/freeglut.h>
 
 void display(void) {
     glClear(GL_COLOR_BUFFER_BIT);
