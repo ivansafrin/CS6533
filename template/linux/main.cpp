@@ -28,6 +28,8 @@ int main(int argc, char **argv) {
     glutReshapeFunc(reshape);
     glutIdleFunc(idle);
     
+    glewInit();
+    
     init();
     glutMainLoop();
     return 0;
