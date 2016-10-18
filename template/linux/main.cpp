@@ -1,6 +1,6 @@
 
-#include <glut.h>
 #include "glsupport.h"
+#include <GL/glut.h>
 
 void display(void) {
     glClear(GL_COLOR_BUFFER_BIT);
@@ -27,6 +27,8 @@ int main(int argc, char **argv) {
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
     glutIdleFunc(idle);
+    
+    glewInit();
     
     init();
     glutMainLoop();

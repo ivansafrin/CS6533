@@ -1,3 +1,5 @@
 .DS_Store
 *.dll
 *.sdf
+*.swp
+template/linux/template
