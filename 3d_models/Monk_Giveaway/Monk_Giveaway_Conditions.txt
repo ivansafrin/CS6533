@@ -1,0 +1,24 @@
+In this .zip file you will find:
+Monk_Giveaway.max
+Monk_Giveaway.obj
+Monk_Giveaway.fbx
+Monk_Giveaway.psd
+Monk_D.tga
+Monk_N.tga
+Monk_S.tga
+Monk_Sc.tga
+
+All files and assets created by Marie-Michelle ''Tits'' Pepin. http://www.mariempepin.com
+
+Permissions:
+You have unrestricted access to modify or create any textures.
+You have unrestricted access to modify or create new portions of the mesh.
+You have unrestricted access to show the model or textures in an animation showreel.
+
+The above permissions are given on the understanding that you will credit the original creator and provide a link to the portfolio given.
+
+Restrictions:
+You may not display any work as being entirely your own (you must credit the original artist).
+You may not use the work, regardless of any modifications in any game project.
+You may not use the work for commercial usage (game, movie etc)
+You may not re-post or mirror the assets anywhere without the express permission of the original artist

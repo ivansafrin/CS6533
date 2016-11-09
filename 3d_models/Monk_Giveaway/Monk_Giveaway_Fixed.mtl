@@ -1,0 +1,15 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Monk_Giveaway
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470560 0.470560 0.470560
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd E:\Mes documents\3d New\Monk\Final\Give away\Monk_D.tga
+map_Bump Monk_N_Normal_Bump.tga
+map_Ka E:\\Mes documents\\3d New\\Monk\\Final\\Give away\\Monk_D.tga
+map_d E:\\Mes documents\\3d New\\Monk\\Final\\Give away\\Monk_D.tga
